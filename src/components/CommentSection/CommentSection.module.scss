@@ -1,0 +1,36 @@
+.CommentSection {
+    padding: 40px;
+ 
+
+  }
+  
+  .Comments {
+    display: flex;
+    flex-direction: column;
+    background-color: #606060;
+    border: 1px solid red;
+    gap: 10px;
+    align-items: flex-start; /* Allinea gli elementi a sinistra */
+    width: 100%;
+  }
+  
+  .Comment {
+    
+    font-size: 18px;
+    margin-bottom: 10px;
+    max-width: 600px; /* Specifica la larghezza massima del commento per evitare che diventi troppo largo */
+   color: #f0f0f0;
+    word-wrap: break-word; /* Fa andare a capo le parole lunghe che non possono stare su una sola riga */
+  }
+  
+  .Name {
+    font-size: 16px;
+    color: #606060; 
+    margin-bottom: 5px;
+    align-self: flex-start; 
+    background-color: #f0f0f0; 
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

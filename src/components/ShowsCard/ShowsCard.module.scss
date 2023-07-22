@@ -1,0 +1,70 @@
+.ShowsCard {
+  margin: 20px;
+}
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+.Card {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  .Img {
+    display: flex;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100%;
+  }
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .Link {
+    text-decoration: none;
+    &:hover {
+      animation: takeoffAnimation 1s forwards;
+    }
+  }
+}
+
+.Cards:hover > :not(:hover) {
+  opacity: 0.4;
+}
+
+@keyframes takeoffAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .Cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Card {
+    width: 50%;
+    height: 50%;
+  }
+}

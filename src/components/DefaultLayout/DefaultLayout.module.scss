@@ -1,0 +1,38 @@
+$primaryColor: #de3735;
+/* $backGroundColor: #8b332b; */
+$backGroundColor: #de3835c4;
+.DefaultLayout {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: $backGroundColor;
+}
+.NavbarLayout {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  background-color: $primaryColor;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.LayoutImg {
+  width: 150px;
+  height: 70px;
+  background-color: $primaryColor;
+}
+
+.LayoutFooter {
+  border-radius: 12px;
+  height: 80px;
+  width: 100%;
+  position: relative ;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primaryColor;
+}
