@@ -5,19 +5,23 @@
   background-color: $backGroundColor;
 }
 .NavbarLayout {
-  height: 60px;
+  height: 80px;
   padding: 10px;
   display: flex;
 
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: $primaryColor;
+  flex-direction: row;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  gap: 20px;
 }
 .LayoutImg {
+ 
   width: 150px;
   height: 70px;
+  margin-right: auto;
   background-color: $primaryColor;
 }
 
@@ -31,6 +35,7 @@
   align-items: center;
   justify-content: center;
   background-color: $primaryColor;
+  padding: 12px;
 }
 
 .FooterLogo {
@@ -89,10 +94,13 @@
 
 .FooterSubscribe {
   width: 20%;
+
+
 }
 
 .FooterSubscribe p {
   margin-bottom: 10px;
+  
 }
 
 .NewsletterInput {
@@ -102,6 +110,9 @@
   font-size: 16px;
   color: $textColor;
   background-color: #333;
+
+  
+
 }
 .NewsletterBtn {
   border: none;
@@ -110,6 +121,8 @@
   font-size: 16px;
   color: $textColor;
   background-color: $primaryColor;
+  margin: 5px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 860px) {
