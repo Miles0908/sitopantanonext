@@ -1,10 +1,14 @@
 $primaryColor: #de3735;
 /* $backGroundColor: #8b332b; */
 $backGroundColor: #de3835c4;
+
 .DefaultLayout {
-  margin: 0;
-  padding: 0;
+ /*  :global(.DefaultLayout) {
+    margin: 0;
+  } */
+
   box-sizing: border-box;
+
   width: 100%;
   background-color: $backGroundColor;
 }
@@ -40,7 +44,6 @@ $backGroundColor: #de3835c4;
 .FooterLogo {
   width: 20%;
 }
-
 
 .FooterLinks {
   width: 20%;
@@ -78,21 +81,18 @@ $backGroundColor: #de3835c4;
 .FooterSocial li {
   display: inline-block;
   margin-right: 10px;
-  &:hover{
-   
+  &:hover {
     transform: scale(1.4);
   }
 }
 
-
 .FooterSocial a {
   color: #333;
-  transition: all 0.3s
+  transition: all 0.3s;
 }
 
 .FooterSocial a:hover {
   color: #007bff;
- 
 }
 
 .FooterSubscribe {
@@ -138,7 +138,4 @@ $backGroundColor: #de3835c4;
       transform: none;
     }
   }
-
-  
 }
-

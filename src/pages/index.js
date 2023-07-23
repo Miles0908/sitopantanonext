@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Head from "next/head";
-import styles from "../styles/Home.module.scss"
+import styles from "@/styles/Home.module.scss"
 import ShowsCard from "@/components/ShowsCard";
 import CommentSection from "@/components/CommentSection";
 
@@ -14,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"  />
       </Head>
       <div className={styles.Home}>
+   
 
           <Hero/>
           <ShowsCard/>

@@ -2,3 +2,8 @@
   border-radius: $value;
   box-shadow: 0 0 4px;
 }
+
+@mixin Reset(){
+ margin: 0;
+ padding: 0;
+}

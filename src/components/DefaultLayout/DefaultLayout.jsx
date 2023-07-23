@@ -1,7 +1,8 @@
 import Preloader from "../Preloader";
 import styles from "./DefaultLayout.module.scss";
+
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const DefaultLayout = ({ children }) => {
   return (
