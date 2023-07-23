@@ -1,7 +1,7 @@
 import styles from "./Preloader.module.scss";
 import { useState, useEffect } from "react";
 
-const Preloader = () => {
+const Preloader = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -21,6 +21,6 @@ const Preloader = () => {
       </div>
     );
   }
-
+  return children;
 };
 export default Preloader;
