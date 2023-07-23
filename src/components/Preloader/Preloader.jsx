@@ -7,7 +7,7 @@ const Preloader = ({ children }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -15,7 +15,9 @@ const Preloader = ({ children }) => {
   if (isLoading) {
     return (
       <div className={styles.Preloader}>
-        <img className={styles.PreloaderGif} src="otherGif.gif" alt="gif" />
+        <img className={styles.PreloaderGif} src="curtainGif.gif" alt="gif" /> 
+     
+
       </div>
     );
   }
