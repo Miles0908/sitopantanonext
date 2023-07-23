@@ -14,8 +14,8 @@ const ShowsCard = () => {
         {card.map((show) => (
           <div className={styles.Card} key={show.id}>
             <img src={show.image}  className={styles.Img} alt={show.name} /> 
-            <h1>{show.name}</h1>
-            <p>{show.description}</p>
+            <h1 className={styles.Title}>{show.name}</h1>
+            <p className={styles.Paragraph}>{show.description}</p>
            <a href={show.link} className={styles.Link}>🚀</a>
 
           </div>

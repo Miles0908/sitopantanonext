@@ -4,6 +4,7 @@ const nextConfig = {
   sassOptions: {
     additionalData: `
     @import "./src/styles/mixins.scss";
+    @import "./src/styles/variables.scss";
 
 
     `,

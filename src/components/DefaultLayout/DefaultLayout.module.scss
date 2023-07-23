@@ -1,12 +1,4 @@
-$primaryColor: #de3735;
-/* $backGroundColor: #8b332b; */
-$backGroundColor: #de3835c4;
-
 .DefaultLayout {
- /*  :global(.DefaultLayout) {
-    margin: 0;
-  } */
-
   box-sizing: border-box;
 
   width: 100%;
@@ -103,14 +95,21 @@ $backGroundColor: #de3835c4;
   margin-bottom: 10px;
 }
 
-.FooterSubscribe input {
-  width: 80%;
-  padding: 5px;
+.NewsletterInput {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: $textColor;
+  background-color: #333;
 }
-
-.FooterSubscribe button {
-  width: 15%;
-  padding: 5px;
+.NewsletterBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: $textColor;
+  background-color: $primaryColor;
 }
 
 @media screen and (max-width: 860px) {

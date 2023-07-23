@@ -64,8 +64,8 @@ const DefaultLayout = ({ children }) => {
               mie battute!
             </p>
             <form>
-              <input type="email" placeholder="Inserisci la tua email" />
-              <button type="submit">Iscriviti</button>
+              <input className={styles.NewsletterInput} type="email" placeholder="Inserisci la tua email" />
+              <button className={styles.NewsletterBtn} type="submit">Iscriviti</button>
             </form>
           </div>
         </div>
