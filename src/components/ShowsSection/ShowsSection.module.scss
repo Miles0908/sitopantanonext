@@ -1,0 +1,22 @@
+.ShowsSection {
+  width: 100%;
+  margin-bottom: 20px;
+
+  .Player {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.ListaTot {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  overflow-x: scroll;
+}
+
+@media screen and (max-width: 636px) {
+}
