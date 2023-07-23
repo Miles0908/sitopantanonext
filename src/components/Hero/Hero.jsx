@@ -14,7 +14,7 @@ export const Hero = () => {
           initial={{ opacity: 0, x: -1000, y: -550 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 2 }}
         >
           <img
             className={styles.HeroLeftImg}
@@ -29,7 +29,7 @@ export const Hero = () => {
             initial={{ opacity: 0, x: 1000}}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
           >
             <p>
               <b>Emanuele Pantano:</b> il comico che ti fa ridere con la verità.
