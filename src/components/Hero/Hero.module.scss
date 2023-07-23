@@ -43,15 +43,19 @@ $textColor: #ffffff;
     height: 10%;
     position: absolute;
 
+    margin-top: 200px;
+
     top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .HeroLeftImg {
     object-fit: cover;
-    position: absolute;
+  
     width: 60%;
     border-radius: 12px;
+    margin-top: 320px;
+    position: absolute;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -65,7 +69,7 @@ $textColor: #ffffff;
   .HeroLeftImg {
     max-width: 200px;
     height: 150px;
-    margin-top: 15px;
+    margin-top: 300px;
   }
 
   .HeroParagraph {
@@ -73,7 +77,9 @@ $textColor: #ffffff;
     height: 10%;
     width: 360px;
     position: absolute;
-    top: 17%;
+    top: 35%;
     margin: 12px;
+    margin-top:60px;
+    
   }
 }

@@ -17,7 +17,7 @@ export default function Home() {
 
           <Hero/>
           <ShowsCard/>
-          <CommentSection/>
+       {/*    <CommentSection/> */}
       </div>
     </>
   );
